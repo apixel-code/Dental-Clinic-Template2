@@ -2,25 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Farida Dental Clinic",
-    logoPrefix: "Farida",
+    name: "Farah's Dental Clinic",
+    logoPrefix: "Farah's",
     logoSuffix: "Dental",
-    area: "Bhairab Town",
-    location: "Bhairab Town, Kishoreganj, Bangladesh",
-    tagline: "Quality Care for Every Smile",
+    area: "Dhaka",
+    location: "Dhaka, Bangladesh",
+    tagline: "Modern Dental Care for Every Smile",
     description:
-      "At Farida Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Farah's Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
-    addressLines: [
-      "Farida Dental Clinic,",
-      "Bhairab Town, Kishoreganj, Bangladesh",
-    ],
-    phone: "+880 1795-498489",
-    phoneHref: "tel:+8801795498489",
-    email: "doctoratikrahman@gmail.com",
-    emailHref: "mailto:doctoratikrahman@gmail.com",
+    addressLines: ["Farah's Dental Clinic,", "Dhaka, Bangladesh"],
+    phone: "+880 1770-568555",
+    phoneHref: "tel:+8801770568555",
+    email: "farahsdental@gmail.com",
+    emailHref: "mailto:farahsdental@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -29,16 +26,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/farida-dental-location",
-      title: "Farida Dental Clinic Location",
+      src: "http://googleusercontent.com/maps.google.com/farahs-dental-location",
+      title: "Farah's Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=100085510508508",
+        href: "https://www.facebook.com/farahsdental",
       },
-      { name: "Instagram", href: "https://instagram.com/faridadental" },
-      { name: "Twitter", href: "https://twitter.com/faridadental" },
+      { name: "Instagram", href: "https://instagram.com/farahsdental" },
+      { name: "Twitter", href: "https://twitter.com/farahsdental" },
     ],
     navigation: {
       links: [
@@ -158,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Farida Dental Specialist",
+      alt: "Farah's Dental Specialist",
     },
   },
   stats: [
@@ -230,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Farida Dental",
+      titleAccent: "Farah's Dental",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -251,39 +248,38 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1795-...",
-        email: "doctoratikrahman@gmail.com",
+        phone: "+880 1770-...",
+        email: "farahsdental@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Farida Dental Clinic",
+      title: "Contact Farah's Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription:
-      "Transforming smiles with expert dental care in Bhairab Town.",
+    brandDescription: "Transforming smiles with expert dental care in Dhaka.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Farida Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "Farah's Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Bhairab Town",
+    titleAccent: "Dhaka",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/farida-dental-location",
-      title: "Farida Dental Clinic Map",
+      src: "http://googleusercontent.com/maps.google.com/farahs-dental-location",
+      title: "Farah's Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -294,8 +290,8 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Farida Dental Way",
-    titlePrefix: "Why Farida",
+    eyebrow: "The Farah's Dental Way",
+    titlePrefix: "Why Farah's",
     titleAccent: "Dental",
     features: [
       {
@@ -318,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Farida Dental",
+    headerTitle: "Farah's Dental",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -327,11 +323,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Farida Dental Clinic!",
+    quickMessagePrefix: "Hello Farah's Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801795498489",
+    whatsappNumber: "8801770568555",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -344,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Farida Dental Clinic at",
+    contactPrompt: "Questions? Call Farah's Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -378,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Farida Dental",
+    titlePrefix: "Farah's Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
