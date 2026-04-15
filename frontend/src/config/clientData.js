@@ -2,22 +2,25 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Siraj Dental Clinic",
-    logoPrefix: "Siraj",
+    name: "Farida Dental Clinic",
+    logoPrefix: "Farida",
     logoSuffix: "Dental",
-    area: "Tangail",
-    location: "Tangail, Bangladesh",
-    tagline: "Expert Dental Care for a Brighter Smile",
+    area: "Bhairab Town",
+    location: "Bhairab Town, Kishoreganj, Bangladesh",
+    tagline: "Quality Care for Every Smile",
     description:
-      "At Siraj Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Farida Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
-    addressLines: ["Siraj Dental Clinic,", "Tangail, Bangladesh"],
-    phone: "+880 1729-300723",
-    phoneHref: "tel:+8801729300723",
-    email: "shirajdental@gmail.com",
-    emailHref: "mailto:shirajdental@gmail.com",
+    addressLines: [
+      "Farida Dental Clinic,",
+      "Bhairab Town, Kishoreganj, Bangladesh",
+    ],
+    phone: "+880 1795-498489",
+    phoneHref: "tel:+8801795498489",
+    email: "doctoratikrahman@gmail.com",
+    emailHref: "mailto:doctoratikrahman@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -26,16 +29,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/siraj-dental-location",
-      title: "Siraj Dental Clinic Location",
+      src: "http://googleusercontent.com/maps.google.com/farida-dental-location",
+      title: "Farida Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/sirajdentalclinicc",
+        href: "https://www.facebook.com/profile.php?id=100085510508508",
       },
-      { name: "Instagram", href: "https://instagram.com/sirajdental" },
-      { name: "Twitter", href: "https://twitter.com/sirajdental" },
+      { name: "Instagram", href: "https://instagram.com/faridadental" },
+      { name: "Twitter", href: "https://twitter.com/faridadental" },
     ],
     navigation: {
       links: [
@@ -155,7 +158,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Siraj Dental Specialist",
+      alt: "Farida Dental Specialist",
     },
   },
   stats: [
@@ -227,7 +230,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Siraj Dental",
+      titleAccent: "Farida Dental",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -248,38 +251,39 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1729-...",
-        email: "shirajdental@gmail.com",
+        phone: "+880 1795-...",
+        email: "doctoratikrahman@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Siraj Dental Clinic",
+      title: "Contact Farida Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription: "Transforming smiles with expert dental care in Tangail.",
+    brandDescription:
+      "Transforming smiles with expert dental care in Bhairab Town.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Siraj Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "Farida Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Tangail",
+    titleAccent: "Bhairab Town",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/siraj-dental-location",
-      title: "Siraj Dental Clinic Map",
+      src: "http://googleusercontent.com/maps.google.com/farida-dental-location",
+      title: "Farida Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -290,8 +294,8 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Siraj Dental Way",
-    titlePrefix: "Why Siraj",
+    eyebrow: "The Farida Dental Way",
+    titlePrefix: "Why Farida",
     titleAccent: "Dental",
     features: [
       {
@@ -314,7 +318,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Siraj Dental",
+    headerTitle: "Farida Dental",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -323,11 +327,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Siraj Dental Clinic!",
+    quickMessagePrefix: "Hello Farida Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801729300723",
+    whatsappNumber: "8801795498489",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -340,7 +344,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Siraj Dental Clinic at",
+    contactPrompt: "Questions? Call Farida Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -374,7 +378,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Siraj Dental",
+    titlePrefix: "Farida Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
