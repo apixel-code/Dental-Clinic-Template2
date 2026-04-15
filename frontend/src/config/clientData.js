@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Farah's Dental Clinic",
-    logoPrefix: "Farah's",
-    logoSuffix: "Dental",
+    name: "Shah Ali Dental Clinic",
+    logoPrefix: "Shah",
+    logoSuffix: "Ali Dental",
     area: "Dhaka",
     location: "Dhaka, Bangladesh",
-    tagline: "Modern Dental Care for Every Smile",
+    tagline: "Trusted Dental Care & Complete Oral Health Solutions",
     description:
-      "At Farah's Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Shah Ali Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
-    addressLines: ["Farah's Dental Clinic,", "Dhaka, Bangladesh"],
-    phone: "+880 1770-568555",
-    phoneHref: "tel:+8801770568555",
-    email: "farahsdental@gmail.com",
-    emailHref: "mailto:farahsdental@gmail.com",
+    addressLines: ["Shah Ali Dental Clinic,", "Dhaka, Bangladesh"],
+    phone: "+880 1819-271054",
+    phoneHref: "tel:+8801819271054",
+    email: "shahalidentalclinic@gmail.com",
+    emailHref: "mailto:shahalidentalclinic@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -26,16 +26,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/farahs-dental-location",
-      title: "Farah's Dental Clinic Location",
+      src: "http://googleusercontent.com/maps.google.com/shah-ali-dental-location",
+      title: "Shah Ali Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/farahsdental",
+        href: "https://www.facebook.com/shah.ali.dental.clinic",
       },
-      { name: "Instagram", href: "https://instagram.com/farahsdental" },
-      { name: "Twitter", href: "https://twitter.com/farahsdental" },
+      { name: "Instagram", href: "https://instagram.com/shahalidental" },
+      { name: "Twitter", href: "https://twitter.com/shahalidental" },
     ],
     navigation: {
       links: [
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Farah's Dental Specialist",
+      alt: "Shah Ali Dental Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Farah's Dental",
+      titleAccent: "Shah Ali Dental",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -248,14 +248,14 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1770-...",
-        email: "farahsdental@gmail.com",
+        phone: "+880 1819-...",
+        email: "shahalidentalclinic@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Farah's Dental Clinic",
+      title: "Contact Shah Ali Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -267,7 +267,7 @@ export const clientInfo = {
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Farah's Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "Shah Ali Dental Clinic. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
@@ -278,8 +278,8 @@ export const clientInfo = {
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/farahs-dental-location",
-      title: "Farah's Dental Clinic Map",
+      src: "http://googleusercontent.com/maps.google.com/shah-ali-dental-location",
+      title: "Shah Ali Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -290,8 +290,8 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Farah's Dental Way",
-    titlePrefix: "Why Farah's",
+    eyebrow: "The Shah Ali Way",
+    titlePrefix: "Why Shah Ali",
     titleAccent: "Dental",
     features: [
       {
@@ -314,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Farah's Dental",
+    headerTitle: "Shah Ali Dental",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -323,11 +323,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Farah's Dental Clinic!",
+    quickMessagePrefix: "Hello Shah Ali Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801770568555",
+    whatsappNumber: "8801819271054",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -340,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Farah's Dental Clinic at",
+    contactPrompt: "Questions? Call Shah Ali Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -374,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Farah's Dental",
+    titlePrefix: "Shah Ali Dental",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
