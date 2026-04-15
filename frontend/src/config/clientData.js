@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Shah Ali Dental Clinic",
-    logoPrefix: "Shah",
-    logoSuffix: "Ali Dental",
-    area: "Dhaka",
-    location: "Dhaka, Bangladesh",
-    tagline: "Trusted Dental Care & Complete Oral Health Solutions",
+    name: "Dental Solutions",
+    logoPrefix: "Dental",
+    logoSuffix: "Solutions",
+    area: "Mohammadpur",
+    location: "Mohammadpur, Dhaka, Bangladesh",
+    tagline: "Comprehensive Care for Your Perfect Smile",
     description:
-      "At Shah Ali Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+      "At Dental Solutions, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
     awardLabel: "Dental Specialist",
     awardTitle: "Excellence in Dental Care 2025",
     awardSource: "Bangladesh Dental Society",
-    addressLines: ["Shah Ali Dental Clinic,", "Dhaka, Bangladesh"],
-    phone: "+880 1819-271054",
-    phoneHref: "tel:+8801819271054",
-    email: "shahalidentalclinic@gmail.com",
-    emailHref: "mailto:shahalidentalclinic@gmail.com",
+    addressLines: ["Dental Solutions,", "Mohammadpur, Dhaka, Bangladesh"],
+    phone: "+880 1976-369883",
+    phoneHref: "tel:+8801976369883",
+    email: "hasansuruj@hotmail.com",
+    emailHref: "mailto:hasansuruj@hotmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -26,16 +26,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/shah-ali-dental-location",
-      title: "Shah Ali Dental Clinic Location",
+      src: "http://googleusercontent.com/maps.google.com/dental-solutions-location",
+      title: "Dental Solutions Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/shah.ali.dental.clinic",
+        href: "https://www.facebook.com/www.dentalsolutions.com.bd",
       },
-      { name: "Instagram", href: "https://instagram.com/shahalidental" },
-      { name: "Twitter", href: "https://twitter.com/shahalidental" },
+      { name: "Instagram", href: "https://instagram.com/dentalsolutions" },
+      { name: "Twitter", href: "https://twitter.com/dentalsolutions" },
     ],
     navigation: {
       links: [
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Shah Ali Dental Specialist",
+      alt: "Dental Solutions Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Shah Ali Dental",
+      titleAccent: "Dental Solutions",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -248,38 +248,39 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1819-...",
-        email: "shahalidentalclinic@gmail.com",
+        phone: "+880 1976-...",
+        email: "hasansuruj@hotmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Shah Ali Dental Clinic",
+      title: "Contact Dental Solutions",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription: "Transforming smiles with expert dental care in Dhaka.",
+    brandDescription:
+      "Transforming smiles with expert dental care in Mohammadpur.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Shah Ali Dental Clinic. All Rights Reserved.",
+    copyrightSuffix: "Dental Solutions. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Dhaka",
+    titleAccent: "Mohammadpur",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/shah-ali-dental-location",
-      title: "Shah Ali Dental Clinic Map",
+      src: "http://googleusercontent.com/maps.google.com/dental-solutions-location",
+      title: "Dental Solutions Map",
     },
   },
   servicesGrid: {
@@ -290,9 +291,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Shah Ali Way",
-    titlePrefix: "Why Shah Ali",
-    titleAccent: "Dental",
+    eyebrow: "The Dental Solutions Way",
+    titlePrefix: "Why Dental",
+    titleAccent: "Solutions",
     features: [
       {
         title: "Expert Dentists",
@@ -314,7 +315,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Shah Ali Dental",
+    headerTitle: "Dental Solutions",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -323,11 +324,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Shah Ali Dental Clinic!",
+    quickMessagePrefix: "Hello Dental Solutions!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801819271054",
+    whatsappNumber: "8801976369883",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -340,7 +341,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Shah Ali Dental Clinic at",
+    contactPrompt: "Questions? Call Dental Solutions at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -374,7 +375,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Shah Ali Dental",
+    titlePrefix: "Dental Solutions",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
