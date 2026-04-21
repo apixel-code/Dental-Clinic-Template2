@@ -81,7 +81,9 @@ export const Appointment = () => {
                       </div>
                       <div>
                         <p className="font-body text-xs text-navy/50 uppercase">{clientInfo.appointmentPage.sidebar.locationLabel}</p>
-                        <p className="font-body text-navy">{clientInfo.brand.area}, {clientInfo.brand.location}</p>
+                        <p className="font-body text-navy">
+                          {[clientInfo.brand.area, clientInfo.brand.location].filter(Boolean).join(", ")}
+                        </p>
                       </div>
                     </div>
                   </div>

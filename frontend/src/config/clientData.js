@@ -2,20 +2,20 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Dental Solutions",
+    name: "Dental Clinic Day",
     logoPrefix: "Dental",
-    logoSuffix: "Solutions",
-    area: "Mohammadpur",
-    location: "Mohammadpur, Dhaka, Bangladesh",
-    tagline: "Comprehensive Care for Your Perfect Smile",
+    logoSuffix: "Clinic Day",
+    area: "",
+    location: "Dhaka",
+    tagline: "Comprehensive Care for Your Smile",
     description:
-      "At Dental Solutions, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
-    awardLabel: "Dental Specialist",
-    awardTitle: "Excellence in Dental Care 2025",
+      "At Dental Clinic Day, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
+    awardLabel: "Dental Care",
+    awardTitle: "Excellence in Dental Care",
     awardSource: "Bangladesh Dental Society",
-    addressLines: ["Dental Solutions,", "Mohammadpur, Dhaka, Bangladesh"],
-    phone: "+880 1976-369883",
-    phoneHref: "tel:+8801976369883",
+    addressLines: ["Dental Clinic Day,", "Dhaka"],
+    phone: "01611794101",
+    phoneHref: "tel:01611794101",
     email: "hasansuruj@hotmail.com",
     emailHref: "mailto:hasansuruj@hotmail.com",
     workingHours: {
@@ -26,16 +26,16 @@ export const clientInfo = {
       fridayStatus: "Closed",
     },
     map: {
-      src: "http://googleusercontent.com/maps.google.com/dental-solutions-location",
-      title: "Dental Solutions Location",
+      src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
+      title: "Dental Clinic Day Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/www.dentalsolutions.com.bd",
+        href: "https://www.facebook.com/profile.php?id=61550667118088",
       },
-      { name: "Instagram", href: "https://instagram.com/dentalsolutions" },
-      { name: "Twitter", href: "https://twitter.com/dentalsolutions" },
+      { name: "Instagram", href: "https://www.instagram.com/" },
+      { name: "Twitter", href: "https://x.com/" },
     ],
     navigation: {
       links: [
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Dental Solutions Specialist",
+      alt: "Dental Clinic Day Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Dental Solutions",
+      titleAccent: "Dental Clinic Day",
       description:
         "Reach out to us for any queries related to dental care or appointments.",
     },
@@ -255,7 +255,7 @@ export const clientInfo = {
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Dental Solutions",
+      title: "Contact Dental Clinic Day",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -263,24 +263,24 @@ export const clientInfo = {
   },
   footer: {
     brandDescription:
-      "Transforming smiles with expert dental care in Mohammadpur.",
+      "Transforming smiles with expert dental care in Dhaka.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Dental Solutions. All Rights Reserved.",
+    copyrightSuffix: "Dental Clinic Day. All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Mohammadpur",
+    titleAccent: "Dhaka",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
-      src: "http://googleusercontent.com/maps.google.com/dental-solutions-location",
-      title: "Dental Solutions Map",
+      src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
+      title: "Dental Clinic Day Map",
     },
   },
   servicesGrid: {
@@ -291,9 +291,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Dental Solutions Way",
+    eyebrow: "The Dental Clinic Day Way",
     titlePrefix: "Why Dental",
-    titleAccent: "Solutions",
+    titleAccent: "Clinic Day",
     features: [
       {
         title: "Expert Dentists",
@@ -315,7 +315,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Dental Solutions",
+    headerTitle: "Dental Clinic Day",
     headerSubtitle: "Dental Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -324,7 +324,7 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Dental Solutions!",
+    quickMessagePrefix: "Hello Dental Clinic Day!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
@@ -341,7 +341,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Dental Solutions at",
+    contactPrompt: "Questions? Call Dental Clinic Day at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -375,7 +375,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Dental Solutions",
+    titlePrefix: "Dental Clinic Day",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
