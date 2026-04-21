@@ -2,7 +2,7 @@ import { format } from "date-fns";
 import { AnimatePresence, motion } from "framer-motion";
 import { Calendar, CheckCircle, Clock, Phone, Stethoscope, User, X } from "lucide-react";
 import { clientInfo } from "../config/clientData";
-import { Button } from "./ui/button";
+import { Button } from "./ui/button ";
 
 export const SuccessModal = ({ isOpen, onClose, appointmentData }) => {
   const timeSlotLabels = {
