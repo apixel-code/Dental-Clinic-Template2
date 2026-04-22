@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Cancer clinic | Dhaka",
-    logoPrefix: "Cancer clinic |",
-    logoSuffix: "Dhaka",
+    name: "Family Care Dental Zone",
+    logoPrefix: "Family Care",
+    logoSuffix: "Dental Zone",
     area: "",
     location: "Dhaka",
     tagline: "Comprehensive Care for Every Patient",
     description:
-      "At Cancer clinic | Dhaka, we provide high-quality patient care with a focus on compassion, comfort, and advanced treatment procedures.",
+      "At Family Care Dental Zone, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures.",
     awardLabel: "Cancer Care",
     awardTitle: "Excellence in Cancer Care",
     awardSource: "Dhaka Medical Community",
-    addressLines: ["Cancer clinic | Dhaka", "Dhaka"],
-    phone: "gonosasthohomeo@gmail.com",
-    phoneHref: "mailto:gonosasthohomeo@gmail.com",
-    email: "gonosasthohomeo@gmail.com",
-    emailHref: "mailto:gonosasthohomeo@gmail.com",
+    addressLines: ["Family Care Dental Zone", "Dhaka"],
+    phone: "dr.chayan786@gmail.com",
+    phoneHref: "mailto:dr.chayan786@gmail.com",
+    email: "dr.chayan786@gmail.com",
+    emailHref: "mailto:dr.chayan786@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -27,12 +27,12 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Cancer clinic | Dhaka Location",
+      title: "Family Care Dental Zone Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=61578042547854",
+        href: "https://www.facebook.com/Familycaredentalzone",
       },
       { name: "Instagram", href: "https://www.instagram.com/" },
       { name: "Twitter", href: "https://x.com/" },
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Cancer clinic | Dhaka Specialist",
+      alt: "Family Care Dental Zone Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Cancer clinic | Dhaka",
+      titleAccent: "Family Care Dental Zone",
       description:
         "Reach out to us for any queries related to care or appointments.",
     },
@@ -249,13 +249,13 @@ export const clientInfo = {
       placeholders: {
         name: "Full name",
         phone: "+880 1712-492438",
-        email: "gonosasthohomeo@gmail.com",
+        email: "dr.chayan786@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Cancer clinic | Dhaka",
+      title: "Contact Family Care Dental Zone",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -280,7 +280,7 @@ export const clientInfo = {
     hoursTitle: "Working Hours",
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Cancer clinic | Dhaka Map",
+      title: "Family Care Dental Zone Map",
     },
   },
   servicesGrid: {
@@ -291,9 +291,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Cancer clinic | Dhaka Way",
-    titlePrefix: "Why Cancer clinic |",
-    titleAccent: "Dhaka",
+    eyebrow: "The Family Care Dental Zone Way",
+    titlePrefix: "Why Family Care",
+    titleAccent: "Dental Zone",
     features: [
       {
         title: "Expert Dentists",
@@ -315,7 +315,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Cancer clinic | Dhaka",
+    headerTitle: "Family Care Dental Zone",
     headerSubtitle: "Care Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -324,11 +324,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Cancer clinic | Dhaka!",
+    quickMessagePrefix: "Hello Family Care Dental Zone!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801712492438",
+    whatsappNumber: "8801682683811",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -341,7 +341,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Contact Cancer clinic | Dhaka at",
+    contactPrompt: "Questions? Contact Family Care Dental Zone at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -375,7 +375,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Cancer clinic | Dhaka",
+    titlePrefix: "Family Care Dental Zone",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
