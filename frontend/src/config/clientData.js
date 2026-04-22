@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Dental Clinic Day",
-    logoPrefix: "Dental",
-    logoSuffix: "Clinic Day",
+    name: "Cancer clinic | Dhaka",
+    logoPrefix: "Cancer clinic |",
+    logoSuffix: "Dhaka",
     area: "",
     location: "Dhaka",
-    tagline: "Comprehensive Care for Your Smile",
+    tagline: "Comprehensive Care for Every Patient",
     description:
-      "At Dental Clinic Day, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures. Your smile is our priority.",
-    awardLabel: "Dental Care",
-    awardTitle: "Excellence in Dental Care",
-    awardSource: "Bangladesh Dental Society",
-    addressLines: ["Dental Clinic Day,", "Dhaka"],
-    phone: "01611794101",
-    phoneHref: "tel:01611794101",
-    email: "hasansuruj@hotmail.com",
-    emailHref: "mailto:hasansuruj@hotmail.com",
+      "At Cancer clinic | Dhaka, we provide high-quality patient care with a focus on compassion, comfort, and advanced treatment procedures.",
+    awardLabel: "Cancer Care",
+    awardTitle: "Excellence in Cancer Care",
+    awardSource: "Dhaka Medical Community",
+    addressLines: ["Cancer clinic | Dhaka", "Dhaka"],
+    phone: "gonosasthohomeo@gmail.com",
+    phoneHref: "mailto:gonosasthohomeo@gmail.com",
+    email: "gonosasthohomeo@gmail.com",
+    emailHref: "mailto:gonosasthohomeo@gmail.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -27,12 +27,12 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Dental Clinic Day Location",
+      title: "Cancer clinic | Dhaka Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=61550667118088",
+        href: "https://www.facebook.com/profile.php?id=61578042547854",
       },
       { name: "Instagram", href: "https://www.instagram.com/" },
       { name: "Twitter", href: "https://x.com/" },
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Dental Clinic Day Specialist",
+      alt: "Cancer clinic | Dhaka Specialist",
     },
   },
   stats: [
@@ -227,9 +227,9 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Dental Clinic Day",
+      titleAccent: "Cancer clinic | Dhaka",
       description:
-        "Reach out to us for any queries related to dental care or appointments.",
+        "Reach out to us for any queries related to care or appointments.",
     },
     form: {
       title: "Enquire About Treatment",
@@ -248,14 +248,14 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1976-...",
-        email: "hasansuruj@hotmail.com",
+        phone: "+880 1712-492438",
+        email: "gonosasthohomeo@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Dental Clinic Day",
+      title: "Contact Cancer clinic | Dhaka",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
@@ -263,12 +263,12 @@ export const clientInfo = {
   },
   footer: {
     brandDescription:
-      "Transforming smiles with expert dental care in Dhaka.",
+      "Serving patients with compassionate care in Dhaka.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
     copyrightPrefix: "©",
-    copyrightSuffix: "Dental Clinic Day. All Rights Reserved.",
+    copyrightSuffix: "All Rights Reserved.",
   },
   contactStrip: {
     eyebrow: "Find Us",
@@ -280,7 +280,7 @@ export const clientInfo = {
     hoursTitle: "Working Hours",
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Dental Clinic Day Map",
+      title: "Cancer clinic | Dhaka Map",
     },
   },
   servicesGrid: {
@@ -291,9 +291,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Dental Clinic Day Way",
-    titlePrefix: "Why Dental",
-    titleAccent: "Clinic Day",
+    eyebrow: "The Cancer clinic | Dhaka Way",
+    titlePrefix: "Why Cancer clinic |",
+    titleAccent: "Dhaka",
     features: [
       {
         title: "Expert Dentists",
@@ -315,8 +315,8 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Dental Clinic Day",
-    headerSubtitle: "Dental Support",
+    headerTitle: "Cancer clinic | Dhaka",
+    headerSubtitle: "Care Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
     quickMessagesTitle: "FAQs",
@@ -324,11 +324,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Dental Clinic Day!",
+    quickMessagePrefix: "Hello Cancer clinic | Dhaka!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801976369883",
+    whatsappNumber: "8801712492438",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -341,7 +341,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Call Dental Clinic Day at",
+    contactPrompt: "Questions? Contact Cancer clinic | Dhaka at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -375,7 +375,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Dental Clinic Day",
+    titlePrefix: "Cancer clinic | Dhaka",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
