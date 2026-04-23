@@ -2,20 +2,20 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Inayah Pharmacy & Clinic",
-    logoPrefix: "Inayah",
-    logoSuffix: "Pharmacy & Clinic",
+    name: "Dr Isha Dental Clinic",
+    logoPrefix: "Dr Isha",
+    logoSuffix: "Dental Clinic",
     area: "",
-    location: "Karachi",
+    location: "Chittagong",
     tagline: "Comprehensive Care for Every Patient",
     description:
-      "At Inayah Pharmacy & Clinic, we provide high-quality care with a focus on patient comfort and advanced treatment procedures.",
+      "At Dr Isha Dental Clinic, we provide high-quality care with a focus on patient comfort and advanced treatment procedures.",
     awardLabel: "Cancer Care",
     awardTitle: "Excellence in Cancer Care",
-    awardSource: "Karachi Medical Community",
-    addressLines: ["Inayah Pharmacy & Clinic", "Karachi"],
-    phone: "+92 330 1274601",
-    phoneHref: "tel:+923301274601",
+    awardSource: "Chittagong Medical Community",
+    addressLines: ["Dr Isha Dental Clinic", "Chittagong"],
+    phone: "01602014725",
+    phoneHref: "tel:01602014725",
     email: "info@example.com",
     emailHref: "mailto:info@example.com",
     workingHours: {
@@ -27,12 +27,12 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Inayah Pharmacy & Clinic Location",
+      title: "Dr Isha Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/InayahPharmacy",
+        href: "https://www.facebook.com/profile.php?id=100063748587293",
       },
       { name: "Instagram", href: "https://www.instagram.com/" },
       { name: "Twitter", href: "https://x.com/" },
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Inayah Pharmacy & Clinic Specialist",
+      alt: "Dr Isha Dental Clinic Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Inayah Pharmacy & Clinic",
+      titleAccent: "Dr Isha Dental Clinic",
       description:
         "Reach out to us for any queries related to care or appointments.",
     },
@@ -248,21 +248,21 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+92 330 1274601",
+        phone: "01602014725",
         email: "dr.chayan786@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Inayah Pharmacy & Clinic",
+      title: "Contact Dr Isha Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription: "Serving patients with compassionate care in Karachi.",
+    brandDescription: "Serving patients with compassionate care in Chittagong.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
@@ -272,14 +272,14 @@ export const clientInfo = {
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Karachi",
+    titleAccent: "Chittagong",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Inayah Pharmacy & Clinic Map",
+      title: "Dr Isha Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -290,9 +290,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Inayah Pharmacy & Clinic Way",
-    titlePrefix: "Why Inayah",
-    titleAccent: "Pharmacy & Clinic",
+    eyebrow: "The Dr Isha Dental Clinic Way",
+    titlePrefix: "Why Dr Isha",
+    titleAccent: "Dental Clinic",
     features: [
       {
         title: "Expert Dentists",
@@ -314,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Inayah Pharmacy & Clinic",
+    headerTitle: "Dr Isha Dental Clinic",
     headerSubtitle: "Care Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -323,7 +323,7 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Inayah Pharmacy & Clinic!",
+    quickMessagePrefix: "Hello Dr Isha Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
@@ -340,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Contact Inayah Pharmacy & Clinic at",
+    contactPrompt: "Questions? Contact Dr Isha Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -374,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Inayah Pharmacy & Clinic",
+    titlePrefix: "Dr Isha Dental Clinic",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
