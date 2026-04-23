@@ -2,19 +2,19 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Family Care Dental Zone",
-    logoPrefix: "Family Care",
-    logoSuffix: "Dental Zone",
+    name: "Mojeda Dental Clinic",
+    logoPrefix: "Mojeda",
+    logoSuffix: "Dental Clinic",
     area: "",
-    location: "Dhaka",
+    location: "Tangail",
     tagline: "Comprehensive Care for Every Patient",
     description:
-      "At Family Care Dental Zone, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures.",
+      "At Mojeda Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures.",
     awardLabel: "Cancer Care",
     awardTitle: "Excellence in Cancer Care",
-    awardSource: "Dhaka Medical Community",
-    addressLines: ["Family Care Dental Zone", "Dhaka"],
-    phone: "dr.chayan786@gmail.com",
+    awardSource: "Tangail Medical Community",
+    addressLines: ["Mojeda Dental Clinic", "Tangail"],
+    phone: "+8801763440075",
     phoneHref: "mailto:dr.chayan786@gmail.com",
     email: "dr.chayan786@gmail.com",
     emailHref: "mailto:dr.chayan786@gmail.com",
@@ -27,12 +27,12 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Family Care Dental Zone Location",
+      title: "Mojeda Dental Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/Familycaredentalzone",
+        href: "https://www.facebook.com/profile.php?id=100069956585966",
       },
       { name: "Instagram", href: "https://www.instagram.com/" },
       { name: "Twitter", href: "https://x.com/" },
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Family Care Dental Zone Specialist",
+      alt: "Mojeda Dental Clinic Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Family Care Dental Zone",
+      titleAccent: "Mojeda Dental Clinic",
       description:
         "Reach out to us for any queries related to care or appointments.",
     },
@@ -255,15 +255,14 @@ export const clientInfo = {
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Family Care Dental Zone",
+      title: "Contact Mojeda Dental Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription:
-      "Serving patients with compassionate care in Dhaka.",
+    brandDescription: "Serving patients with compassionate care in Tangail.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
@@ -273,14 +272,14 @@ export const clientInfo = {
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Dhaka",
+    titleAccent: "Tangail",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Family Care Dental Zone Map",
+      title: "Mojeda Dental Clinic Map",
     },
   },
   servicesGrid: {
@@ -291,9 +290,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Family Care Dental Zone Way",
-    titlePrefix: "Why Family Care",
-    titleAccent: "Dental Zone",
+    eyebrow: "The Mojeda Dental Clinic Way",
+    titlePrefix: "Why Mojeda",
+    titleAccent: "Dental Clinic",
     features: [
       {
         title: "Expert Dentists",
@@ -315,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Family Care Dental Zone",
+    headerTitle: "Mojeda Dental Clinic",
     headerSubtitle: "Care Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -324,11 +323,11 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Family Care Dental Zone!",
+    quickMessagePrefix: "Hello Mojeda Dental Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
-    whatsappNumber: "8801682683811",
+    whatsappNumber: "8801763440075",
     accentColor: "#25D366",
     accentHoverColor: "#20BD5A",
   },
@@ -341,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Contact Family Care Dental Zone at",
+    contactPrompt: "Questions? Contact Mojeda Dental Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -375,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Family Care Dental Zone",
+    titlePrefix: "Mojeda Dental Clinic",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
