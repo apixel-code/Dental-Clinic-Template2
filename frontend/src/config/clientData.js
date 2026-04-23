@@ -2,22 +2,22 @@ import { Award, Clock, Users } from "lucide-react";
 
 export const clientInfo = {
   brand: {
-    name: "Mojeda Dental Clinic",
-    logoPrefix: "Mojeda",
-    logoSuffix: "Dental Clinic",
+    name: "Inayah Pharmacy & Clinic",
+    logoPrefix: "Inayah",
+    logoSuffix: "Pharmacy & Clinic",
     area: "",
-    location: "Tangail",
+    location: "Karachi",
     tagline: "Comprehensive Care for Every Patient",
     description:
-      "At Mojeda Dental Clinic, we provide high-quality dental services with a focus on patient comfort and advanced treatment procedures.",
+      "At Inayah Pharmacy & Clinic, we provide high-quality care with a focus on patient comfort and advanced treatment procedures.",
     awardLabel: "Cancer Care",
     awardTitle: "Excellence in Cancer Care",
-    awardSource: "Tangail Medical Community",
-    addressLines: ["Mojeda Dental Clinic", "Tangail"],
-    phone: "+8801763440075",
-    phoneHref: "mailto:dr.chayan786@gmail.com",
-    email: "dr.chayan786@gmail.com",
-    emailHref: "mailto:dr.chayan786@gmail.com",
+    awardSource: "Karachi Medical Community",
+    addressLines: ["Inayah Pharmacy & Clinic", "Karachi"],
+    phone: "+92 330 1274601",
+    phoneHref: "tel:+923301274601",
+    email: "info@example.com",
+    emailHref: "mailto:info@example.com",
     workingHours: {
       weekdays: "Sat - Thu: 11AM - 9PM",
       friday: "Friday: Closed",
@@ -27,12 +27,12 @@ export const clientInfo = {
     },
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Mojeda Dental Clinic Location",
+      title: "Inayah Pharmacy & Clinic Location",
     },
     socialLinks: [
       {
         name: "Facebook",
-        href: "https://www.facebook.com/profile.php?id=100069956585966",
+        href: "https://www.facebook.com/InayahPharmacy",
       },
       { name: "Instagram", href: "https://www.instagram.com/" },
       { name: "Twitter", href: "https://x.com/" },
@@ -155,7 +155,7 @@ export const clientInfo = {
     },
     image: {
       src: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=800&h=1000&fit=crop",
-      alt: "Mojeda Dental Clinic Specialist",
+      alt: "Inayah Pharmacy & Clinic Specialist",
     },
   },
   stats: [
@@ -227,7 +227,7 @@ export const clientInfo = {
     hero: {
       eyebrow: "Contact Us",
       titlePrefix: "Visit",
-      titleAccent: "Mojeda Dental Clinic",
+      titleAccent: "Inayah Pharmacy & Clinic",
       description:
         "Reach out to us for any queries related to care or appointments.",
     },
@@ -248,21 +248,21 @@ export const clientInfo = {
       },
       placeholders: {
         name: "Full name",
-        phone: "+880 1712-492438",
+        phone: "+92 330 1274601",
         email: "dr.chayan786@gmail.com",
         message: "e.g. Interested in scaling or filling",
       },
       successToast: "Enquiry sent!",
     },
     info: {
-      title: "Contact Mojeda Dental Clinic",
+      title: "Contact Inayah Pharmacy & Clinic",
       addressTitle: "Our Clinic",
       phoneTitle: "Call Now",
       emailTitle: "Write to Us",
     },
   },
   footer: {
-    brandDescription: "Serving patients with compassionate care in Tangail.",
+    brandDescription: "Serving patients with compassionate care in Karachi.",
     quickLinksTitle: "Navigation",
     servicesTitle: "Specialties",
     contactTitle: "Reach Us",
@@ -272,14 +272,14 @@ export const clientInfo = {
   contactStrip: {
     eyebrow: "Find Us",
     titlePrefix: "Located In",
-    titleAccent: "Tangail",
+    titleAccent: "Karachi",
     addressTitle: "Address",
     phoneTitle: "Phone",
     emailTitle: "Email",
     hoursTitle: "Working Hours",
     map: {
       src: "http://googleusercontent.com/maps.google.com/dental-clinic-day-location",
-      title: "Mojeda Dental Clinic Map",
+      title: "Inayah Pharmacy & Clinic Map",
     },
   },
   servicesGrid: {
@@ -290,9 +290,9 @@ export const clientInfo = {
     bookButtonLabel: "Book Visit",
   },
   whyChooseUs: {
-    eyebrow: "The Mojeda Dental Clinic Way",
-    titlePrefix: "Why Mojeda",
-    titleAccent: "Dental Clinic",
+    eyebrow: "The Inayah Pharmacy & Clinic Way",
+    titlePrefix: "Why Inayah",
+    titleAccent: "Pharmacy & Clinic",
     features: [
       {
         title: "Expert Dentists",
@@ -314,7 +314,7 @@ export const clientInfo = {
     ],
   },
   whatsapp: {
-    headerTitle: "Mojeda Dental Clinic",
+    headerTitle: "Inayah Pharmacy & Clinic",
     headerSubtitle: "Care Support",
     greeting: "Hello! Ready for a smile makeover? 👋",
     prompt: "Have a dental question or need an appointment?",
@@ -323,7 +323,7 @@ export const clientInfo = {
       { id: 1, text: "What is the cost of scaling?", emoji: "🦷" },
       { id: 2, text: "Do you offer root canal?", emoji: "✨" },
     ],
-    quickMessagePrefix: "Hello Mojeda Dental Clinic!",
+    quickMessagePrefix: "Hello Inayah Pharmacy & Clinic!",
     customMessage: "I'd like to consult about dental care at your clinic.",
     startChatLabel: "Chat via WhatsApp",
     ariaLabel: "WhatsApp Support",
@@ -340,7 +340,7 @@ export const clientInfo = {
       date: "Date",
       time: "Time",
     },
-    contactPrompt: "Questions? Contact Mojeda Dental Clinic at",
+    contactPrompt: "Questions? Contact Inayah Pharmacy & Clinic at",
     doneLabel: "Done",
   },
   doctorCard: {
@@ -374,7 +374,7 @@ export const clientInfo = {
     },
   },
   adminPage: {
-    titlePrefix: "Mojeda Dental Clinic",
+    titlePrefix: "Inayah Pharmacy & Clinic",
     titleAccent: "Admin Portal",
     logoutLabel: "Logout",
     stats: [
